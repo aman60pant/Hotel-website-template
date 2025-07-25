@@ -1,0 +1,103 @@
+/* Navbar Styling */
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #7eb9f8;
+    text-decoration-thickness: 4px;
+    font-weight: 500;
+}
+
+/* Carousel Styling */
+.carousel-item {
+    height: 80vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    position: relative;
+}
+
+h2::before {
+    position: absolute;
+    content: "";
+    background-color: #ff0909;
+    width: 20px;
+    height: 4px;
+    transform: rotate(-36deg);
+    left: -10px;
+}
+
+h2::after {
+    position: absolute;
+    content: "";
+    background-color: #ff0909;
+    width: 20px;
+    height: 4px;
+    transform: rotate(-36deg);
+    bottom: 0px;
+}
+
+
+/* about page */
+.about .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+    max-width: 350px;
+    width: 100%;
+    float: right;
+}
+
+.about_img {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+.about_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.about_img img {
+  transition: all 0.5s ease;
+}
+.about_img img:hover {
+  transform: scale(1.05);
+}
+
+/* our rooms section */
+.room-img-detail {
+    font-size: 12px;
+}
+
+.room_section {
+    background-color: aliceblue;
+}
+
+.room-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+}
+
+.room-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: scale(1.05);
+}
+
+
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}

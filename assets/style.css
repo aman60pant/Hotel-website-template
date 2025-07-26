@@ -236,9 +236,6 @@ h2::after {
   display: block;
 }
 
-.testimonial-content {
-
-}
 
 .btn-gradient-book {
   background: linear-gradient(45deg, #ff416c, #ff4b2b);
@@ -525,5 +522,166 @@ h5 {
     min-width: 0;
     width: 90%;
     margin-bottom: 19px;
+  }
+}
+
+/* Responsive adjustments for tablets (max-width: 991.98px) */
+@media (max-width: 991.98px) {
+  /* Our Room cards: 2 cards per row approx */
+  .room-card-3 {
+    width: 45% !important;
+    margin-left: 10px !important;
+  }
+
+  /* Facilities stack vertically */
+  .facilities-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .facility-card {
+    min-width: 100% !important;
+  }
+
+  /* Contact form & map stack vertically */
+  .contact-container {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .contact-form,
+  .contact-map {
+    max-width: 100% !important;
+  }
+
+  /* Footer columns stack */
+  .footer-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .footer-column {
+    width: 90% !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* Center footer social icons */
+  .footer-socials {
+    text-align: center;
+  }
+}
+
+
+
+
+/* Responsive adjustments for mobile phones (max-width: 575.98px) */
+@media (max-width: 575.98px) {
+  /* Our Room cards full width with margin adjustments */
+  .room-card-3 {
+    width: 90% !important;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  /* Facilities stack vertically */
+  .facilities-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .facility-card {
+    min-width: 100% !important;
+  }
+
+  /* Contact container vertical stack */
+  .contact-container {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .contact-form,
+  .contact-map {
+    max-width: 100% !important;
+  }
+
+  /* Footer vertical stack and full width */
+  .footer-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .footer-column {
+    width: 90% !important;
+    margin-bottom: 20px !important;
+  }
+  .footer-socials {
+    text-align: center;
+  }
+}
+
+/* Small custom tweaks for better spacing on very small devices */
+@media (max-width: 400px) {
+  .room-img-detail {
+    font-size: 14px;
+  }
+  .facility-card {
+    padding: 20px 25px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+  .contact-btn {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+
+
+/* Responsive adjustments */
+
+/* Tablets and smaller desktops */
+@media (max-width: 991.98px) {
+  .carousel-item img {
+    max-height: 400px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 575.98px) {
+  .carousel-item img {
+    max-height: 250px;
+  }
+}
+
+/* Optional: fix carousel caption responsiveness */
+.carousel-caption {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Make carousel caption text smaller on mobile */
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    font-size: 0.85rem;
+  }
+}
+
+
+/* Tablets and smaller desktops */
+@media (max-width: 991.98px) {
+  .carousel-inner {
+    max-height: 400px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 575.98px) {
+  .carousel-inner {
+    max-height: 250px;
+  }
+  .carousel-caption {
+    font-size: 0.85rem;
+    padding: 0.5rem;
   }
 }

@@ -115,6 +115,91 @@ h2::after {
   transform: scale(1.05);
 }
 
+/* facilities section  */
+.Facilties_section h1{
+  color: white;
+  margin-top: 50px;
+}
+
+.facilities-section {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 40px 0;
+}
+
+.facility-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  padding: 40px 35px 25px 35px;
+  transition: background 0.35s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 120px;
+}
+
+.facility-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: color 0.35s;
+}
+
+.icon-facility {
+  font-size: 2.4rem;
+  color: #bfa33a;
+  margin-bottom: 10px;
+  transition: color 0.35s;
+}
+
+.facility-text {
+  color: #444;
+  font-size: 1.12rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.35s;
+}
+
+.facility-card:hover {
+  background: #ffd900;
+}
+.facility-card:hover .facility-inner .icon-facility,
+.facility-card:hover .facility-inner .facility-text {
+  color: #fff;
+}
+
+.explore-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1.07rem;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: 
+    background 0.35s,
+    color 0.3s,
+    box-shadow 0.3s;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 0.5px;
+  box-shadow: none;
+  margin-bottom: 50px;
+}
+
+.explore-btn:hover,
+.explore-btn:focus {
+  background: #fff;
+  color: #222;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+  border-color: #fff;
+}
+
+
 
 /* blogs section  */
 
@@ -173,6 +258,21 @@ h2::after {
 
 .btn-gradient-read:hover {
   background: linear-gradient(45deg, #0072ff, #00c6ff);
+  color: white;
+}
+
+.btn-gradient-read_more {
+  background: linear-gradient(45deg, #11998e, #38ef7d); /* teal to bright green */
+  color: white;
+  border: none;
+  transition: background 0.4s ease;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1rem;
+}
+.btn-gradient-read_more:hover {
+  background: linear-gradient(45deg, #38ef7d, #11998e);
   color: white;
 }
 

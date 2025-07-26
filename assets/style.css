@@ -169,8 +169,9 @@ h2::after {
 }
 .facility-card:hover .facility-inner .icon-facility,
 .facility-card:hover .facility-inner .facility-text {
-  color: #fff;
+  color: green;
 }
+
 
 .explore-btn {
   background: transparent;

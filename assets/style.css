@@ -85,20 +85,6 @@ h2::after {
   background-color: aliceblue;
 }
 
-/* .room-card {
-  background-color: white;
-  border: 1px solid #838383;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease;
-}
-
-.room-card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05);
-} */
-
 /* Gallery section  */
 .room-card-2 {
   width: 250px;
@@ -571,6 +557,8 @@ h5 {
 
 
 
+
+
 /* Responsive adjustments for mobile phones (max-width: 575.98px) */
 @media (max-width: 575.98px) {
   /* Our Room cards full width with margin adjustments */
@@ -638,6 +626,7 @@ h5 {
 
 
 
+
 /* Responsive adjustments */
 
 /* Tablets and smaller desktops */
@@ -684,4 +673,16 @@ h5 {
     font-size: 0.85rem;
     padding: 0.5rem;
   }
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

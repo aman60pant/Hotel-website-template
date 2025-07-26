@@ -235,6 +235,10 @@ h2::after {
   display: block;
 }
 
+.testimonial-content {
+
+}
+
 .btn-gradient-book {
   background: linear-gradient(45deg, #ff416c, #ff4b2b);
   color: white;

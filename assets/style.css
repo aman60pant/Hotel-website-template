@@ -1,5 +1,8 @@
 /* Navbar Styling */
 
+.navbar-brand {
+  padding: 0;
+}
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #7eb9f8;
@@ -9,7 +12,7 @@
 
 /* Carousel Styling */
 .carousel-item {
-  height: 80vh;
+  height: 100vh;
 }
 
 .carousel-item img {

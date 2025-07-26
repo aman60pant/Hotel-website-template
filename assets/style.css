@@ -96,6 +96,7 @@ h2::after {
   transform: scale(1.05);
 }
 
+/* Gallery section  */
 .room-card-2 {
   width: 250px;
   border: 1px solid #838383;
@@ -239,6 +240,7 @@ h5 {
     gap: 32px;
     align-items: center;
   }
+
   .contact-map,
   .contact-form {
     width: 100%;
@@ -300,6 +302,7 @@ h5 {
   margin-bottom: 10px;
   font-size: 1rem;
 }
+
 .footer-icon {
   margin-right: 9px;
 }
@@ -354,6 +357,7 @@ h5 {
 .footer-socials {
   margin-top: 16px;
 }
+
 .footer-socials a {
   color: #fff;
   font-size: 1.22rem;
@@ -361,6 +365,7 @@ h5 {
   display: inline-block;
   transition: color 0.2s;
 }
+
 .footer-socials a:hover {
   color: #e91547;
 }
@@ -372,6 +377,7 @@ h5 {
     align-items: center;
     gap: 10px;
   }
+
   .footer-column {
     min-width: 0;
     width: 90%;

@@ -201,9 +201,9 @@ h2::after {
 
 
 
-/* blogs section  */
+/* Testimonial section  */
 
-.blogs_section {
+.testimonial_section {
   background-image: url('img/blog_bg.jpg');
   background-size: cover;
   background-position: center;
@@ -282,7 +282,7 @@ h5 {
 
 }
 
-.blog-content {
+.testimonial-content {
   margin: 30px;
 }
 

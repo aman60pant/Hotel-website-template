@@ -245,3 +245,136 @@ h5 {
     max-width: 500px;
   }
 }
+
+/* footer */
+.footer-section {
+  background: #10131d;
+  padding: 45px 0 20px 0;
+  border-top: 3px solid #e91547;
+  color: #fff;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1 1 240px;
+  min-width: 220px;
+  margin-bottom: 24px;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  position: relative;
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+
+.footer-heading::after {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 2.5px;
+  background: #e91547;
+  margin-top: 6px;
+}
+
+.footer-contact,
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contact li,
+.footer-menu li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.footer-icon {
+  margin-right: 9px;
+}
+
+.footer-menu a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-menu a:hover,
+.footer-menu .active-link {
+  color: #e91547;
+}
+
+.active-link {
+  color: #e91547;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer-newsletter input[type="email"] {
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 0.98rem;
+}
+
+.footer-newsletter button {
+  width: fit-content;
+  padding: 6px 18px;
+  border-radius: 2px;
+  border: none;
+  background: #fff;
+  color: #e91547;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.footer-newsletter button:hover {
+  background: #e91547;
+  color: #fff;
+}
+
+.footer-socials {
+  margin-top: 16px;
+}
+.footer-socials a {
+  color: #fff;
+  font-size: 1.22rem;
+  margin-right: 13px;
+  display: inline-block;
+  transition: color 0.2s;
+}
+.footer-socials a:hover {
+  color: #e91547;
+}
+
+/* Responsive */
+@media (max-width:900px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer-column {
+    min-width: 0;
+    width: 90%;
+    margin-bottom: 19px;
+  }
+}

@@ -97,9 +97,9 @@ h2::after {
 }
 
 .room-card-2 {
+  width: 250px;
   border: 1px solid #838383;
-  padding: 5px;
-  /* margin-right: 5px; */
+  margin-left: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;

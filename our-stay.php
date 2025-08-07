@@ -11,8 +11,5 @@
 
         </div>
     </div>
-    <div class="col-lg-6">
-
-    </div>
 </div>
 <?php include 'include/footer.php'; ?>

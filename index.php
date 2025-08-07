@@ -280,7 +280,7 @@
   <!-- contact section end  -->
 
   <!-- Footer -->
-  
+  <?php include 'include/footer.php'; ?>
   <!-- footer end -->
 
   <!-- Bootstrap 5 JS bundle (includes Popper) -->

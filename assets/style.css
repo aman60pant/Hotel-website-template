@@ -714,3 +714,13 @@ html {
   display: flex;
   flex-direction: column;
 }
+
+
+
+/* OUR STAY SECTION */
+
+.Stay-section {
+  background-color: #cecece;
+  padding: 10px 0;
+  color: #64af8c;
+}

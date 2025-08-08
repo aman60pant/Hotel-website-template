@@ -67,9 +67,9 @@
                     <button onclick="prevImage()">❮</button>
                     <button onclick="nextImage()">❯</button>
                 </div>
-                <div>
-
-                </div>
+            </div>
+            <div>
+                <h1>Excel Rooms</h1>
             </div>
         </div>
         <div class="col-lg-6">
